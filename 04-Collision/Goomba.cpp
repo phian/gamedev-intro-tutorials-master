@@ -2,8 +2,8 @@
 
 void CGoomba::GetBoundingBox(float& left, float& top, float& right, float& bottom)
 {
-	left = x + 15;
-	top = y + 15;
+	left = x;
+	top = y;
 	right = x + GOOMBA_BBOX_WIDTH;
 
 	if (state == GOOMBA_STATE_DIE)
